@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Stack+Sans+Headline:wght@200..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+    background-image: url(images/fotoincendio.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    align-items: center;
+}
+
+.title{
+    text-transform: uppercase;
+    background: linear-gradient(to right, red ,rgb(56, 0, 0));
+    background-clip: text;
+    color: transparent;
+    font-family: "Momo Trust Display", sans-serif;
+}
+
+header p{
+    line-height: 25px;
+    width: 60%;
+    margin: 20px auto;
+    color: rgb(255, 255, 255);
+    background-color: rgb(165, 0, 0, 0.3);
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+header p:hover{
+    background-color: rgb(165, 0, 0);
+    color: black;
+    transform: scale(1.02) translateY(-2px);
+}
+
+header button{
+    background: linear-gradient(to right, red, rgb(124, 0, 0));
+    padding: 15px 30px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-bottom: 0px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+header button:hover{
+    transform: scale(1.04) translateY(-3px);
+    box-shadow: 2px 2px 6px rgb(255, 4, 4);
+}
+
+header button a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.container-main{
+    text-align: center;
+    color: white;
+}
+
+.container-main h2{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.plans{
+    background-color: rgb(19, 13, 13);
+    margin: 20px 10px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    width: 220px;
+    transition: 0.2s ease;
+}
+
+.plans:hover{
+    background: linear-gradient(to right, rgb(102, 1, 1), rgb(255, 4, 4), rgb(102, 1, 1));
+    transform: scale(1.02) translateY(-3px);
+    box-shadow: 2px 2px 6px rgb(255, 4, 4);
+}
+
+.plans:hover h2{
+    background: none;
+    -webkit-background-clip: unset;
+    background-clip: unset;
+    -webkit-text-fill-color: unset;
+    color: white;
+}
+
+.plans:hover p{
+    background: none;
+    -webkit-background-clip: unset;
+    background-clip: unset;
+    -webkit-text-fill-color: unset;
+    color: white;
+}
+
+.plans h2{
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-family: "Momo Trust Display", sans-serif;
+    background: linear-gradient(to right, red, rgb(255, 255, 255));
+    background-clip: text;
+    color: transparent;
+    transform: 0.2s;
+}
+
+.plans h3{
+    margin-bottom: 15px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.plans p{
+    color: rgb(114, 114, 114);
+}
+
+.finish{
+    text-align: center;
+}
+
+.finish h2{
+    font-size: 30px;
+    margin: 30px 0px;
+    text-transform: uppercase;
+}
+
+.finish input{
+    margin-bottom: 40px;
+    padding: 15px 40px;
+    background-color: red;
+    opacity: 0.8;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+    font-weight: 700;
+}
+
+.finish input:hover{
+    opacity: 1;
+    cursor: pointer;
+    transform: scaleY(1.02) translateY(-2px);
+    box-shadow: 1px 1px 2px rgb(255, 4, 4);
+}

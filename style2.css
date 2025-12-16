@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Momo+Trust+Display&family=Stack+Sans+Headline:wght@200..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+header{
+    text-align: center;
+    margin: 20px 0;
+    font-family: "Momo Trust Display", sans-serif;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plans{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.plans .img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(19, 13, 13);
+    border-radius: 10px;
+    margin: 20px 10px;
+    width: 25%;
+    height: 450px;
+    transition: 0.2s ease;
+}
+
+.img:hover{
+    transform: scale(1.02) translateY(-3px);
+    box-shadow: 10px 15px 30px rgb(255, 4, 4);
+}
+
+.plans img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 280px;
+}
+
+.img h2{
+    margin: 10px 0;
+    text-align: center;font-family: "Momo Trust Display", sans-serif;
+}
+
+.img p{
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.img a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: rgb(255, 4, 4);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 10px 0;
+    transition: 0.2s;
+    font-family: "Momo Trust Display", sans-serif;
+    text-transform: uppercase;
+}
+
+.img a:hover{
+    background-color: rgb(54, 0, 0);
+    transform: scale(1.01) translateY(-1px);
+}

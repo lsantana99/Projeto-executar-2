@@ -1,0 +1,36 @@
+@media(max-width:480px){
+    body{
+        overflow-x: hidden;
+    }
+
+    h2{
+        width: 100%;
+    }
+
+    .container-cards{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+    }
+
+    .plans{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 70%;
+    }
+
+    .container-main h2{
+        max-width: 480px;
+    }
+
+    .cards-projects{
+        width: 80%;
+        padding: 0 1rem;
+        margin: 0 auto;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    }
+}
